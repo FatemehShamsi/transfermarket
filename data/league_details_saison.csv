@@ -1,0 +1,429 @@
+URL,country_id,saison,winner,top_scorer,foreigners,goals_per_match,league_id
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2021,Manchester City,91845,66.7,2.82,1
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2021,Manchester City,148455,66.7,2.82,1
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2021,Fulham FC,51152,45.9,2.51,2
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2015,Paris Saint-Germain,3455,53.8,2.53,3
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2021,Wigan Athletic,118535,38.8,2.7,4
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2015,AS Nancy-Lorraine,237125,46.9,2.3,5
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2021,Forest Green Rovers ,333782,30.3,2.46,6
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2015,,411439,30.7,2.36,7
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2021,,278501,23.0,2.74,8
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2015,,98264,30.7,2.36,7
+https://www.transfermarkt.com/national-league-north/startseite/wettbewerb/NLN6/,189,2021,,526347,18.3,2.64,9
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2016,Real Madrid,28003,44.1,2.94,11
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2016,Levante UD,143044,19.2,2.25,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2016,Levante UD,143044,19.2,2.25,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2016,Levante UD,143044,19.2,2.25,12
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2015,FC Barcelona,44352,41.9,2.74,11
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2015,Deportivo Alavés,145769,17.6,2.26,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2015,Deportivo Alavés,145769,17.6,2.26,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2015,Deportivo Alavés,145769,17.6,2.26,12
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2018,FC Barcelona,28003,41.8,2.59,11
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2018,CA Osasuna,57935,23.5,2.18,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2018,CA Osasuna,57935,23.5,2.18,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2018,CA Osasuna,57935,23.5,2.18,12
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2017,FC Barcelona,28003,43.0,2.69,11
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2018,Paris Saint-Germain,342229,55.0,2.56,3
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2019,Real Madrid,28003,41.7,2.48,11
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2017,Rayo Vallecano,227961,22.1,2.31,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2017,Rayo Vallecano,227961,22.1,2.31,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2017,Rayo Vallecano,227961,22.1,2.31,12
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2018,,93678,47.9,2.19,5
+https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1/,40,2015,Bayern Munich,38253,55.2,2.83,14
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2019,SD Huesca,59323,24.2,2.29,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2019,SD Huesca,59323,24.2,2.29,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2019,SD Huesca,59323,24.2,2.29,12
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2018,,281614,28.7,2.17,7
+https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2/,40,2015,SC Freiburg,36284,37.8,2.64,15
+https://www.transfermarkt.com/segunda-division-b-grupo-i-bis-20-21-/startseite/wettbewerb/ES3A/,157,2019,,263692,12.7,2.45,13
+https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,50,2018,,565060,26.1,2.8,10
+https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3/,40,2015,SG Dynamo Dresden,50782,18.4,2.4,16
+https://www.transfermarkt.com/regionalliga-bayern/startseite/wettbewerb/RLB3/,40,2015,SSV Jahn Regensburg,82011,12.8,2.97,18
+https://www.transfermarkt.com/oberliga-baden-wurttemberg/startseite/wettbewerb/OBLB/,40,2015,,114408,16.2,3.16,19
+https://www.transfermarkt.com/brandenburgliga/startseite/wettbewerb/BRBL/,40,2015,,92700,14.2,3.06,20
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2017,Paris Saint-Germain,48280,56.3,2.72,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2017,,259025,44.7,2.72,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2017,,262022,30.1,2.35,7
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2017,,210332,30.1,2.35,7
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2017,,61005,30.1,2.35,7
+https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,50,2017,,450051,23.5,2.4,10
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2016,AS Monaco,48280,51.8,2.61,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2016,,253842,46.7,2.48,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2016,,259025,31.7,2.38,7
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2020,LOSC Lille,342229,53.0,2.76,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2020,,594991,45.8,2.39,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2020,,399553,28.1,2.24,7
+https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,50,2020,,315102,18.5,2.06,10
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2020,Atlético de Madrid,28003,39.9,2.51,11
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2020,RCD Espanyol Barcelona,162038,25.0,2.05,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2020,RCD Espanyol Barcelona,162038,25.0,2.05,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2020,RCD Espanyol Barcelona,162038,25.0,2.05,12
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2019,Paris Saint-Germain,342229,54.1,2.52,3
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2019,Paris Saint-Germain,146854,54.1,2.52,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2019,,384060,42.9,2.22,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2019,,238627,29.8,2.38,7
+https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,50,2019,,314891,28.0,2.35,10
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2021,Real Madrid,18922,43.7,2.5,11
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,59323,21.0,2.43,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,59323,21.0,2.43,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,59323,21.0,2.43,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,85324,21.0,2.43,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,85324,21.0,2.43,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,85324,21.0,2.43,12
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2017,Manchester City,148455,67.2,2.68,1
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2017,Wolverhampton Wanderers,101500,54.1,2.55,2
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2017,Wolverhampton Wanderers,35413,54.1,2.55,2
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2017,Wigan Athletic,268746,38.3,2.54,4
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2017,Accrington Stanley,123292,33.1,2.64,6
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2017,,133397,22.6,2.59,8
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2021,Paris Saint-Germain,342229,54.9,2.81,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2021,,238185,41.8,2.28,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2021,,693637,28.3,2.5,7
+https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,50,2021,,518927,17.7,2.59,10
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2016,Chelsea FC,132098,68.4,2.8,1
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2015,Leicester City,132098,70.9,2.7,1
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2016,Newcastle United,108725,55.0,2.61,2
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2015,Burnley FC,120565,51.2,2.42,2
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2018,Manchester City,58864,70.6,2.82,1
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2016,Sheffield United,49542,37.7,2.57,4
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2018,Manchester City,148455,70.6,2.82,1
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2015,Wigan Athletic,106676,40.9,2.64,4
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2016,Portsmouth FC,69749,31.6,2.65,6
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2018,Manchester City,200512,70.6,2.82,1
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2015,Northampton Town,67237,32.8,2.67,6
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2016,Portsmouth FC,130395,31.6,2.65,6
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2018,Norwich City,46972,53.5,2.67,2
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2016,,106119,21.9,2.72,8
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2015,,241680,19.0,2.64,8
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2018,Luton Town,62640,36.6,2.65,4
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2018,Lincoln City,123198,33.8,2.55,6
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2020,Manchester City,132098,63.5,2.69,1
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2018,,191202,21.1,2.49,8
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2020,Norwich City,251664,51.0,2.31,2
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2020,Hull City,158631,35.3,2.62,4
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2020,Cheltenham Town,278501,28.8,2.36,6
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2019,Liverpool FC,197838,65.6,2.72,1
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2019,Leeds United,51152,50.5,2.64,2
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2019,Coventry City,251664,37.6,2.61,4
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2019,Swindon Town,68335,32.6,2.52,6
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2019,,231602,21.1,2.69,8
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2019,Juventus FC,105521,61.8,3.04,24
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2019,Benevento Calcio,194549,23.7,2.51,25
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2019,Benevento Calcio,62735,23.7,2.51,25
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2019,AC Monza,160849,9.3,2.34,26
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2019,,226010,7.9,2.69,27
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2019,,229413,7.9,2.69,27
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2016,Juventus FC,28396,58.6,2.96,24
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2016,SPAL 2013,19447,21.5,2.21,25
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2020,Inter Milan,8198,64.0,3.06,24
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2016,US Cremonese,61478,10.3,2.41,26
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2020,Empoli FC ,33763,28.9,2.4,25
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2016,US Cremonese,72491,10.3,2.41,26
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2016,,274760,8.4,2.67,27
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2020,Como 1907,240206,11.8,2.28,26
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2020,Como 1907,175788,11.8,2.28,26
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2020,,202965,9.1,2.72,27
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2015,Juventus FC,39153,57.3,2.58,24
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2015,Cagliari Calcio,130394,24.9,2.43,25
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2015,AS Cittadella,168550,12.0,2.23,26
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2015,,105676,9.3,2.6,27
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2015,,381687,9.3,2.6,27
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2021,AC Milan,105521,64.5,2.87,24
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2017,Juventus FC,68863,55.2,2.68,24
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2021,US Lecce,33763,30.6,2.48,25
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2017,Juventus FC,105521,55.2,2.68,24
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2021,FC Südtirol,199617,11.0,2.19,26
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2017,Empoli FC ,84765,24.6,2.56,25
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2021,,222210,11.1,2.32,27
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2017,AS Livorno,22155,9.1,2.4,26
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2017,,398670,7.4,2.41,27
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2018,Juventus FC,22328,59.1,2.68,24
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2018,Brescia Calcio,130485,27.3,2.59,25
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2018,Virtus Entella,6020,12.5,2.27,26
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2018,,199199,8.3,2.63,27
+https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1/,40,2020,Bayern Munich,38253,60.8,3.03,14
+https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2/,40,2020,VfL Bochum,80059,30.8,2.97,15
+https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3/,40,2020,SG Dynamo Dresden,17689,18.3,2.67,16
+https://www.transfermarkt.com/regionalliga-bayern/startseite/wettbewerb/RLB3/,40,2020,1.FC Schweinfurt 05,447861,12.1,3.14,18
+https://www.transfermarkt.com/regionalliga-bayern/startseite/wettbewerb/RLB3/,40,2020,1.FC Schweinfurt 05,111298,12.1,3.14,18
+https://www.transfermarkt.com/oberliga-baden-wurttemberg/startseite/wettbewerb/OBLB/,40,2020,,52532,20.2,3.3,19
+https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1/,40,2019,Bayern Munich,38253,59.7,3.21,14
+https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2/,40,2019,Arminia Bielefeld,78147,33.0,2.88,15
+https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3/,40,2019,FC Bayern Munich II,154819,18.9,2.99,16
+https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1/,40,2016,Bayern Munich,58864,57.0,2.87,14
+https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2/,40,2016,VfB Stuttgart,36284,36.5,2.49,15
+https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3/,40,2016,MSV Duisburg,39396,19.0,2.4,16
+https://www.transfermarkt.com/regionalliga-bayern/startseite/wettbewerb/RLB3/,40,2016,SpVgg Unterhaching,50199,14.7,3.21,18
+https://www.transfermarkt.com/oberliga-baden-wurttemberg/startseite/wettbewerb/OBLB/,40,2016,,451375,14.4,3.24,19
+https://www.transfermarkt.com/brandenburgliga/startseite/wettbewerb/BRBL/,40,2016,,125766,11.9,3.4,20
+https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1/,40,2018,Bayern Munich,38253,56.4,3.18,14
+https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2/,40,2018,1.FC Köln,36284,33.2,2.95,15
+https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3/,40,2018,VfL Osnabrück,52117,16.4,2.58,16
+https://www.transfermarkt.com/regionalliga-bayern/startseite/wettbewerb/RLB3/,40,2018,FC Bayern Munich II,154819,13.8,3.0,18
+https://www.transfermarkt.com/oberliga-baden-wurttemberg/startseite/wettbewerb/OBLB/,40,2018,,115386,20.6,3.17,19
+https://www.transfermarkt.com/brandenburgliga/startseite/wettbewerb/BRBL/,40,2018,,366949,14.7,3.53,20
+https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1/,40,2017,Bayern Munich,38253,55.7,2.79,14
+https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2/,40,2017,Fortuna Düsseldorf,125103,32.7,2.75,15
+https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3/,40,2017,1.FC Magdeburg,48547,14.7,2.73,16
+https://www.transfermarkt.com/regionalliga-bayern/startseite/wettbewerb/RLB3/,40,2017,TSV 1860 Munich,32542,13.8,3.16,18
+https://www.transfermarkt.com/oberliga-baden-wurttemberg/startseite/wettbewerb/OBLB/,40,2017,,115386,16.4,3.27,19
+https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1/,40,2021,Bayern Munich,38253,58.4,3.12,14
+https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2/,40,2021,FC Schalke 04,36284,30.7,2.92,15
+https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3/,40,2021,1.FC Magdeburg,154853,15.0,2.78,16
+https://www.transfermarkt.com/regionalliga-bayern/startseite/wettbewerb/RLB3/,40,2021,SpVgg Bayreuth,236543,12.2,3.29,18
+https://www.transfermarkt.com/brandenburgliga/startseite/wettbewerb/BRBL/,40,2021,,92700,13.2,3.32,20
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2015,Paris Saint-Germain,3455,53.8,2.53,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2015,AS Nancy-Lorraine,237125,46.9,2.3,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2015,,411439,30.7,2.36,7
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2015,,98264,30.7,2.36,7
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2017,Paris Saint-Germain,48280,56.3,2.72,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2017,,259025,44.7,2.72,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2017,,262022,30.1,2.35,7
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2017,,210332,30.1,2.35,7
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2017,,61005,30.1,2.35,7
+https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,50,2017,,450051,23.5,2.4,10
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2016,AS Monaco,48280,51.8,2.61,3
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2019,Real Madrid,28003,41.7,2.48,11
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2016,,253842,46.7,2.48,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2016,,259025,31.7,2.38,7
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2019,SD Huesca,59323,24.2,2.29,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2019,SD Huesca,59323,24.2,2.29,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2019,SD Huesca,59323,24.2,2.29,12
+https://www.transfermarkt.com/segunda-division-b-grupo-i-bis-20-21-/startseite/wettbewerb/ES3A/,157,2019,,263692,12.7,2.45,13
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2021,Real Madrid,18922,43.7,2.5,11
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2018,Paris Saint-Germain,342229,55.0,2.56,3
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,59323,21.0,2.43,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,59323,21.0,2.43,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,59323,21.0,2.43,12
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2020,Atlético de Madrid,28003,39.9,2.51,11
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2018,,93678,47.9,2.19,5
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2020,RCD Espanyol Barcelona,162038,25.0,2.05,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2020,RCD Espanyol Barcelona,162038,25.0,2.05,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2020,RCD Espanyol Barcelona,162038,25.0,2.05,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,85324,21.0,2.43,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,85324,21.0,2.43,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,85324,21.0,2.43,12
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2018,,281614,28.7,2.17,7
+https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,50,2018,,565060,26.1,2.8,10
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2017,FC Barcelona,28003,43.0,2.69,11
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2017,Rayo Vallecano,227961,22.1,2.31,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2017,Rayo Vallecano,227961,22.1,2.31,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2017,Rayo Vallecano,227961,22.1,2.31,12
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2015,FC Barcelona,44352,41.9,2.74,11
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2016,Real Madrid,28003,44.1,2.94,11
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2015,Deportivo Alavés,145769,17.6,2.26,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2015,Deportivo Alavés,145769,17.6,2.26,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2015,Deportivo Alavés,145769,17.6,2.26,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2016,Levante UD,143044,19.2,2.25,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2016,Levante UD,143044,19.2,2.25,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2016,Levante UD,143044,19.2,2.25,12
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2018,FC Barcelona,28003,41.8,2.59,11
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2018,CA Osasuna,57935,23.5,2.18,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2018,CA Osasuna,57935,23.5,2.18,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2018,CA Osasuna,57935,23.5,2.18,12
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2019,Paris Saint-Germain,342229,54.1,2.52,3
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2020,LOSC Lille,342229,53.0,2.76,3
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2019,Paris Saint-Germain,146854,54.1,2.52,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2020,,594991,45.8,2.39,5
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2019,,384060,42.9,2.22,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2020,,399553,28.1,2.24,7
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2019,,238627,29.8,2.38,7
+https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,50,2020,,315102,18.5,2.06,10
+https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,50,2019,,314891,28.0,2.35,10
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2021,Paris Saint-Germain,342229,54.9,2.81,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2021,,238185,41.8,2.28,5
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2020,Manchester City,132098,63.5,2.69,1
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2021,,693637,28.3,2.5,7
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2018,Manchester City,58864,70.6,2.82,1
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2020,Norwich City,251664,51.0,2.31,2
+https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,50,2021,,518927,17.7,2.59,10
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2018,Manchester City,148455,70.6,2.82,1
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2020,Hull City,158631,35.3,2.62,4
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2016,Chelsea FC,132098,68.4,2.8,1
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2018,Manchester City,200512,70.6,2.82,1
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2019,Liverpool FC,197838,65.6,2.72,1
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2016,Newcastle United,108725,55.0,2.61,2
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2015,Leicester City,132098,70.9,2.7,1
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2020,Cheltenham Town,278501,28.8,2.36,6
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2018,Norwich City,46972,53.5,2.67,2
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2016,Sheffield United,49542,37.7,2.57,4
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2019,Leeds United,51152,50.5,2.64,2
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2015,Burnley FC,120565,51.2,2.42,2
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2018,Luton Town,62640,36.6,2.65,4
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2016,Portsmouth FC,69749,31.6,2.65,6
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2015,Wigan Athletic,106676,40.9,2.64,4
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2016,Portsmouth FC,130395,31.6,2.65,6
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2018,Lincoln City,123198,33.8,2.55,6
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2019,Swindon Town,68335,32.6,2.52,6
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2015,Northampton Town,67237,32.8,2.67,6
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2017,Manchester City,148455,67.2,2.68,1
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2016,,106119,21.9,2.72,8
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2018,,191202,21.1,2.49,8
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2019,,231602,21.1,2.69,8
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2017,Wolverhampton Wanderers,101500,54.1,2.55,2
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2017,Wolverhampton Wanderers,35413,54.1,2.55,2
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2017,Wigan Athletic,268746,38.3,2.54,4
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2017,Accrington Stanley,123292,33.1,2.64,6
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2017,,133397,22.6,2.59,8
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2021,Manchester City,91845,66.7,2.82,1
+https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,189,2021,Manchester City,148455,66.7,2.82,1
+https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,189,2021,Fulham FC,51152,45.9,2.51,2
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2021,Wigan Athletic,118535,38.8,2.7,4
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2021,Forest Green Rovers ,333782,30.3,2.46,6
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2021,,278501,23.0,2.74,8
+https://www.transfermarkt.com/national-league-north/startseite/wettbewerb/NLN6/,189,2021,,526347,18.3,2.64,9
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2020,Inter Milan,8198,64.0,3.06,24
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2020,Empoli FC ,33763,28.9,2.4,25
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2020,Como 1907,240206,11.8,2.28,26
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2020,Como 1907,175788,11.8,2.28,26
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2020,,202965,9.1,2.72,27
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2019,Juventus FC,105521,61.8,3.04,24
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2019,Benevento Calcio,194549,23.7,2.51,25
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2019,Benevento Calcio,62735,23.7,2.51,25
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2019,AC Monza,160849,9.3,2.34,26
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2019,,226010,7.9,2.69,27
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2019,,229413,7.9,2.69,27
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2016,Juventus FC,28396,58.6,2.96,24
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2016,SPAL 2013,19447,21.5,2.21,25
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2016,US Cremonese,61478,10.3,2.41,26
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2016,US Cremonese,72491,10.3,2.41,26
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2016,,274760,8.4,2.67,27
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2015,Juventus FC,39153,57.3,2.58,24
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2021,AC Milan,105521,64.5,2.87,24
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2015,Cagliari Calcio,130394,24.9,2.43,25
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2018,Juventus FC,22328,59.1,2.68,24
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2017,Juventus FC,68863,55.2,2.68,24
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2021,US Lecce,33763,30.6,2.48,25
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2015,AS Cittadella,168550,12.0,2.23,26
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2018,Brescia Calcio,130485,27.3,2.59,25
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2015,,105676,9.3,2.6,27
+https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,75,2017,Juventus FC,105521,55.2,2.68,24
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2021,FC Südtirol,199617,11.0,2.19,26
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2018,Virtus Entella,6020,12.5,2.27,26
+https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,75,2017,Empoli FC ,84765,24.6,2.56,25
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2015,,381687,9.3,2.6,27
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2018,,199199,8.3,2.63,27
+https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,75,2017,AS Livorno,22155,9.1,2.4,26
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2017,,398670,7.4,2.41,27
+https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1/,40,2015,Bayern Munich,38253,55.2,2.83,14
+https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2/,40,2015,SC Freiburg,36284,37.8,2.64,15
+https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3/,40,2015,SG Dynamo Dresden,50782,18.4,2.4,16
+https://www.transfermarkt.com/regionalliga-bayern/startseite/wettbewerb/RLB3/,40,2015,SSV Jahn Regensburg,82011,12.8,2.97,18
+https://www.transfermarkt.com/oberliga-baden-wurttemberg/startseite/wettbewerb/OBLB/,40,2015,,114408,16.2,3.16,19
+https://www.transfermarkt.com/brandenburgliga/startseite/wettbewerb/BRBL/,40,2015,,92700,14.2,3.06,20
+https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1/,40,2019,Bayern Munich,38253,59.7,3.21,14
+https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1/,40,2020,Bayern Munich,38253,60.8,3.03,14
+https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2/,40,2019,Arminia Bielefeld,78147,33.0,2.88,15
+https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2/,40,2020,VfL Bochum,80059,30.8,2.97,15
+https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3/,40,2019,FC Bayern Munich II,154819,18.9,2.99,16
+https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3/,40,2020,SG Dynamo Dresden,17689,18.3,2.67,16
+https://www.transfermarkt.com/regionalliga-bayern/startseite/wettbewerb/RLB3/,40,2020,1.FC Schweinfurt 05,447861,12.1,3.14,18
+https://www.transfermarkt.com/regionalliga-bayern/startseite/wettbewerb/RLB3/,40,2020,1.FC Schweinfurt 05,111298,12.1,3.14,18
+https://www.transfermarkt.com/oberliga-baden-wurttemberg/startseite/wettbewerb/OBLB/,40,2020,,52532,20.2,3.3,19
+https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1/,40,2016,Bayern Munich,58864,57.0,2.87,14
+https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2/,40,2016,VfB Stuttgart,36284,36.5,2.49,15
+https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3/,40,2016,MSV Duisburg,39396,19.0,2.4,16
+https://www.transfermarkt.com/regionalliga-bayern/startseite/wettbewerb/RLB3/,40,2016,SpVgg Unterhaching,50199,14.7,3.21,18
+https://www.transfermarkt.com/oberliga-baden-wurttemberg/startseite/wettbewerb/OBLB/,40,2016,,451375,14.4,3.24,19
+https://www.transfermarkt.com/brandenburgliga/startseite/wettbewerb/BRBL/,40,2016,,125766,11.9,3.4,20
+https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1/,40,2018,Bayern Munich,38253,56.4,3.18,14
+https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2/,40,2018,1.FC Köln,36284,33.2,2.95,15
+https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3/,40,2018,VfL Osnabrück,52117,16.4,2.58,16
+https://www.transfermarkt.com/regionalliga-bayern/startseite/wettbewerb/RLB3/,40,2018,FC Bayern Munich II,154819,13.8,3.0,18
+https://www.transfermarkt.com/oberliga-baden-wurttemberg/startseite/wettbewerb/OBLB/,40,2018,,115386,20.6,3.17,19
+https://www.transfermarkt.com/brandenburgliga/startseite/wettbewerb/BRBL/,40,2018,,366949,14.7,3.53,20
+https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1/,40,2017,Bayern Munich,38253,55.7,2.79,14
+https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2/,40,2017,Fortuna Düsseldorf,125103,32.7,2.75,15
+https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3/,40,2017,1.FC Magdeburg,48547,14.7,2.73,16
+https://www.transfermarkt.com/regionalliga-bayern/startseite/wettbewerb/RLB3/,40,2017,TSV 1860 Munich,32542,13.8,3.16,18
+https://www.transfermarkt.com/oberliga-baden-wurttemberg/startseite/wettbewerb/OBLB/,40,2017,,115386,16.4,3.27,19
+https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1/,40,2021,Bayern Munich,38253,58.4,3.12,14
+https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2/,40,2021,FC Schalke 04,36284,30.7,2.92,15
+https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3/,40,2021,1.FC Magdeburg,154853,15.0,2.78,16
+https://www.transfermarkt.com/regionalliga-bayern/startseite/wettbewerb/RLB3/,40,2021,SpVgg Bayreuth,236543,12.2,3.29,18
+https://www.transfermarkt.com/brandenburgliga/startseite/wettbewerb/BRBL/,40,2021,,92700,13.2,3.32,20
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2021,Wigan Athletic,118535,38.8,2.7,4
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2021,Forest Green Rovers ,333782,30.3,2.46,6
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2021,,278501,23.0,2.74,8
+https://www.transfermarkt.com/national-league-north/startseite/wettbewerb/NLN6/,189,2021,,526347,18.3,2.64,9
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2015,FC Barcelona,44352,41.9,2.74,11
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2015,Deportivo Alavés,145769,17.6,2.26,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2015,Deportivo Alavés,145769,17.6,2.26,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2015,Deportivo Alavés,145769,17.6,2.26,12
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2015,Paris Saint-Germain,3455,53.8,2.53,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2015,AS Nancy-Lorraine,237125,46.9,2.3,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2015,,411439,30.7,2.36,7
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2015,,98264,30.7,2.36,7
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2016,Real Madrid,28003,44.1,2.94,11
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2016,Levante UD,143044,19.2,2.25,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2016,Levante UD,143044,19.2,2.25,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2016,Levante UD,143044,19.2,2.25,12
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2016,AS Monaco,48280,51.8,2.61,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2016,,253842,46.7,2.48,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2016,,259025,31.7,2.38,7
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2018,Paris Saint-Germain,342229,55.0,2.56,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2018,,93678,47.9,2.19,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2018,,281614,28.7,2.17,7
+https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,50,2018,,565060,26.1,2.8,10
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2017,Paris Saint-Germain,48280,56.3,2.72,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2017,,259025,44.7,2.72,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2017,,262022,30.1,2.35,7
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2017,,210332,30.1,2.35,7
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2017,,61005,30.1,2.35,7
+https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,50,2017,,450051,23.5,2.4,10
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2018,FC Barcelona,28003,41.8,2.59,11
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2018,CA Osasuna,57935,23.5,2.18,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2018,CA Osasuna,57935,23.5,2.18,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2018,CA Osasuna,57935,23.5,2.18,12
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2020,LOSC Lille,342229,53.0,2.76,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2020,,594991,45.8,2.39,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2020,,399553,28.1,2.24,7
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2019,Real Madrid,28003,41.7,2.48,11
+https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,50,2020,,315102,18.5,2.06,10
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2019,SD Huesca,59323,24.2,2.29,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2019,SD Huesca,59323,24.2,2.29,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2019,SD Huesca,59323,24.2,2.29,12
+https://www.transfermarkt.com/segunda-division-b-grupo-i-bis-20-21-/startseite/wettbewerb/ES3A/,157,2019,,263692,12.7,2.45,13
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2019,Paris Saint-Germain,342229,54.1,2.52,3
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2019,Paris Saint-Germain,146854,54.1,2.52,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2019,,384060,42.9,2.22,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2019,,238627,29.8,2.38,7
+https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,50,2019,,314891,28.0,2.35,10
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2017,FC Barcelona,28003,43.0,2.69,11
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2017,Rayo Vallecano,227961,22.1,2.31,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2017,Rayo Vallecano,227961,22.1,2.31,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2017,Rayo Vallecano,227961,22.1,2.31,12
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2020,Atlético de Madrid,28003,39.9,2.51,11
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2020,RCD Espanyol Barcelona,162038,25.0,2.05,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2020,RCD Espanyol Barcelona,162038,25.0,2.05,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2020,RCD Espanyol Barcelona,162038,25.0,2.05,12
+https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,50,2021,Paris Saint-Germain,342229,54.9,2.81,3
+https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,50,2021,,238185,41.8,2.28,5
+https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,50,2021,,693637,28.3,2.5,7
+https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,50,2021,,518927,17.7,2.59,10
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2016,Sheffield United,49542,37.7,2.57,4
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2016,Portsmouth FC,69749,31.6,2.65,6
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2016,Portsmouth FC,130395,31.6,2.65,6
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2016,,106119,21.9,2.72,8
+https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,157,2021,Real Madrid,18922,43.7,2.5,11
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,59323,21.0,2.43,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,59323,21.0,2.43,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,59323,21.0,2.43,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,85324,21.0,2.43,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,85324,21.0,2.43,12
+https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,157,2021,UD Almería,85324,21.0,2.43,12
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2020,Hull City,158631,35.3,2.62,4
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2015,Wigan Athletic,106676,40.9,2.64,4
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2020,Cheltenham Town,278501,28.8,2.36,6
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2015,Northampton Town,67237,32.8,2.67,6
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2015,,241680,19.0,2.64,8
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2019,Coventry City,251664,37.6,2.61,4
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2019,Swindon Town,68335,32.6,2.52,6
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2018,Luton Town,62640,36.6,2.65,4
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2019,,231602,21.1,2.69,8
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2018,Lincoln City,123198,33.8,2.55,6
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2018,,191202,21.1,2.49,8
+https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,189,2017,Wigan Athletic,268746,38.3,2.54,4
+https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,189,2017,Accrington Stanley,123292,33.1,2.64,6
+https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,189,2017,,133397,22.6,2.59,8
+https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,75,2021,,222210,11.1,2.32,27

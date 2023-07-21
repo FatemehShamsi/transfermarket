@@ -1,0 +1,29 @@
+league_id,URL,name,country_id
+1,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1/,Premier League,189
+2,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2/,Championship,189
+3,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1/,Ligue 1,50
+4,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3/,League One,189
+5,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2/,Ligue 2,50
+6,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4/,League Two,189
+7,https://www.transfermarkt.com/championnat-national/startseite/wettbewerb/FR3/,Championnat National,50
+8,https://www.transfermarkt.com/national-league/startseite/wettbewerb/CNAT/,National League,189
+9,https://www.transfermarkt.com/national-league-north/startseite/wettbewerb/NLN6/,National League North,189
+10,https://www.transfermarkt.com/championnat-national-2-groupe-a/startseite/wettbewerb/CN2A/,CFA - Grp. A,50
+11,https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1/,LaLiga,157
+28,https://www.transfermarkt.com/regionalliga-nord-abstiegsrunde/startseite/wettbewerb/RNAB/,OL Niedersachsen Playoff,40
+27,https://www.transfermarkt.com/serie-d-girone-a/startseite/wettbewerb/IT4A/,Serie D - A,75
+12,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2/,LaLiga2,157
+13,https://www.transfermarkt.com/segunda-division-b-grupo-i-bis-20-21-/startseite/wettbewerb/ES3A/,2ª B - Grupo I,157
+14,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1/,Bundesliga,40
+15,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2/,2. Bundesliga,40
+16,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3/,3. Liga,40
+17,https://www.transfermarkt.com/championnat-national-3-paris-ile-de-france/startseite/wettbewerb/C3IF/,N3 - Paris Île-de-Fr.,50
+18,https://www.transfermarkt.com/regionalliga-bayern/startseite/wettbewerb/RLB3/,Regionalliga Bayern,40
+19,https://www.transfermarkt.com/oberliga-baden-wurttemberg/startseite/wettbewerb/OBLB/,Oberliga Baden-Württemberg,40
+20,https://www.transfermarkt.com/brandenburgliga/startseite/wettbewerb/BRBL/,Brandenburgliga,40
+21,https://www.transfermarkt.com/primera-division-r-f-e-f-grupo-i/startseite/wettbewerb/E3G1/,Primera Federación - Gr. I,157
+22,https://www.transfermarkt.com/segunda-division-r-f-e-f-grupo-i/startseite/wettbewerb/E4G1/,Segunda Federación - Gr. I,157
+23,https://www.transfermarkt.com/championnat-national-3-auvergne-rhone-alpes/startseite/wettbewerb/C3AR/,N3 - Auvergne-Rhône-A.,50
+24,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1/,Serie A,75
+25,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2/,Serie B,75
+26,https://www.transfermarkt.com/serie-c-girone-a/startseite/wettbewerb/IT3A/,Serie C-A,75
