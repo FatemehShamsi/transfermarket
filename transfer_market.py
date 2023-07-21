@@ -13,6 +13,8 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
     , 'accept-language': 'en-US'
 }
+max_retries = 3
+retries = 0
 
 
 class Transfer:
@@ -131,7 +133,7 @@ class Transfer:
 
     def create_list_of_countries(self):
         urls = []
-        ### if you want all country run this
+        ### if you want all country uncomment this
         # for i in range(1, 500):
         #     url = self.base_URL + '/wettbewerbe/national/wettbewerbe/' + str(i)
         #     urls.append(url)
@@ -605,8 +607,6 @@ class Transfer:
                 except:
                     outfitter = '-'
 
-
-
             self.player_details.loc[len(self.player_details)] = [text[1], date, pob, age, height, citizenship, position,
                                                                  foot,
                                                                  player_agent,
@@ -709,11 +709,8 @@ class Transfer:
                 print(f"scrap_club_page function with {club_url} input: " + str(e))
                 req_failed_count += 1
 
-        return None, None, None
-
     def scrap_club_page_at_season(self, club_url, season):
-        club_season_details = {}
-        club_person = []
+
         club_id = club_url.split('/')[-2]
         new_club_url = club_url + f"?saison_id={season}"
         req_failed_count = 0
@@ -726,11 +723,10 @@ class Transfer:
                 soup = BeautifulSoup(response.content, 'html.parser')
 
                 manager = soup.find(class_='container-main').find('a')
-                manager = {'id': manager.get('href').split('/')[-1], 'name': manager.get('title')}
-
-                club_season_details['club_id'] = club_id
-                club_season_details['season_id'] = season
-                club_season_details['manager_id'] = manager['id']
+                manager_id = manager.get('href').split('/')[-1]
+                manager_name = manager.get('title')
+                self.manager.loc[len(self.manager)] = [manager_id, manager_name]
+                self.save_to_csv('manager')
 
                 try:
                     income = soup.find(class_='transfer-record__total--positive').text.strip()
@@ -745,9 +741,9 @@ class Transfer:
                             income = income * 1000000
                         else:
                             income = income * 1000000000
-                    club_season_details['income'] = income
+
                 except:
-                    club_season_details['income'] = '-'
+                    income = '-'
 
                 try:
                     expenditure = soup.find(class_='transfer-record__total--negative').text.strip()
@@ -762,24 +758,26 @@ class Transfer:
                             expenditure = expenditure * 1000000
                         else:
                             expenditure = expenditure * 1000000000
-                    club_season_details['expenditure'] = expenditure
+
                 except:
-                    club_season_details['expenditure'] = '-'
+                    expenditure = '-'
 
                 for item in soup.select('.posrela'):
                     url = item.find(class_='hauptlink').find('a').get('href')
-                    club_person.append({
-                        'id': url.split('/')[-1],
-                        'name': url.split('/')[1].replace('-', ' ').title(),
-                        'URL': url
-                    })
+                    person_id = url.split('/')[-1]
+                    person_name = url.split('/')[1].replace('-', ' ').title()
+                    person_URL = url
 
-                return manager, club_season_details, club_person, club_url, season
+                self.club_season.loc[len(self.club_season)] = [club_id, season, manager_id, income, expenditure]
+                self.save_to_csv('club_season')
+                self.person.loc[len(self.person)] = [person_id, person_name, person_URL]
+                self.save_to_csv('person')
+                self.scraped_club_at_season_url.loc[len(self.scraped_club_at_season_url)] = [club_url, season]
+                self.save_to_csv('scraped_club_at_season_url')
+
             except Exception as e:
                 print(f"scrap_club_page_at_season function with {new_club_url} input: " + str(e))
                 req_failed_count += 1
-
-        return None, None, None, None, None
 
     def crawl_club_at_season_link(self):
         new_url = set()
@@ -795,38 +793,15 @@ class Transfer:
         new_url = new_url - scraped_url
         print(len(new_url))
         print("start crawling club at season links:")
-        with ThreadPoolExecutor(max_workers=100) as executor:
-            futures = (executor.submit(self.scrap_club_page_at_season, url[0], url[1]) for url in new_url)
-            for future in as_completed(futures):
-                manager, club_season_details, club_person, club_url, season = future.result()
-                if club_url is not None:
-                    self.manager.loc[len(self.manager)] = [
-                        manager['id'],
-                        manager['name']
-                    ]
-                    self.save_to_csv('manager')
+        if len(new_url) == 0:
+            print('all club at season crawled !')
+        else:
+            print('loading club at season :')
+            with ThreadPoolExecutor(max_workers=500) as executor:
+                _ = (executor.submit(self.scrap_club_page_at_season, url[0], url[1]) for url in
+                     tqdm(new_url, desc="Scraping feature of leagues Progress"))
 
-                    self.club_season.loc[len(self.club_season)] = [
-                        club_season_details['club_id'],
-                        club_season_details['season_id'],
-                        club_season_details['manager_id'],
-                        club_season_details['income'],
-                        club_season_details['expenditure']
-                    ]
-                    self.save_to_csv('club_season')
 
-                    for p in club_person:
-                        self.person.loc[len(self.person)] = [
-                            p['id'],
-                            p['name'],
-                            p['URL']
-                        ]
-                    self.save_to_csv('person')
-
-                    self.scraped_club_at_season_url.loc[len(self.scraped_club_at_season_url)] = [club_url, season]
-                    self.save_to_csv('scraped_club_at_season_url')
-
-        print("finish crawling club at season links:")
 
     def crawl_club_link(self):
         new_url = set()
