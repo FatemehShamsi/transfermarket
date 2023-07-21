@@ -662,53 +662,6 @@ class Transfer:
             co_ = as_completed(__)
             co = as_completed(_)
 
-    def scrap_club_page(self, club_url):
-        req_failed_count = 0
-        while req_failed_count < 3:
-            try:
-                response = requests.get(club_url, headers=HEADERS, timeout=10)
-                if response.status_code != 200:
-                    raise Exception(f"status code is {response.status_code}")
-
-                soup = BeautifulSoup(response.content, 'html.parser')
-
-                club_awards = []
-                club_details = {}
-
-                club_details['club_id'] = club_url.split('/')[-2]
-                club_details['name'] = soup.find(class_='data-header__headline-wrapper--oswald').text.strip()
-                try:
-                    club_details['Founded'] = soup.find(class_='info-table--equal-space').find(
-                        itemprop="foundingDate").text
-                except:
-                    club_details['Founded'] = '-'
-
-                try:
-                    club_details['Website'] = soup.find(class_='info-table--equal-space').find(itemprop="url").find(
-                        'a').get('href')
-                except:
-                    club_details['Website'] = '-'
-
-                try:
-                    club_details['Stadium'] = '-'
-                    for item in soup.select('.data-header__details > ul > li'):
-                        if 'Stadium' in item.text:
-                            club_details['Stadium'] = item.find('span').find('a').text
-                except:
-                    club_details['Stadium'] = '-'
-
-                for award in soup.select('.data-header__badge-container > .data-header__success-data'):
-                    club_awards.append({
-                        'club_id': club_details['club_id'],
-                        'award_title': award.get('title'),
-                        'number': int(award.find('span').text.strip())
-                    })
-
-                return club_details, club_awards, club_url
-            except Exception as e:
-                print(f"scrap_club_page function with {club_url} input: " + str(e))
-                req_failed_count += 1
-
     def scrap_club_page_at_season(self, club_url, season):
 
         club_id = club_url.split('/')[-2]
@@ -799,9 +752,55 @@ class Transfer:
             print('loading club at season :')
             with ThreadPoolExecutor(max_workers=500) as executor:
                 _ = (executor.submit(self.scrap_club_page_at_season, url[0], url[1]) for url in
-                     tqdm(new_url, desc="Scraping feature of leagues Progress"))
+                     tqdm(new_url, desc="Scraping feature of clubs at season Progress"))
 
+    def scrap_club_page(self, club_url):
+        req_failed_count = 0
+        while req_failed_count < 3:
+            try:
+                response = requests.get(club_url, headers=HEADERS, timeout=10)
+                if response.status_code != 200:
+                    raise Exception(f"status code is {response.status_code}")
 
+                soup = BeautifulSoup(response.content, 'html.parser')
+
+                club_id = club_url.split('/')[-2]
+                club_name = soup.find(class_='data-header__headline-wrapper--oswald').text.strip()
+                try:
+                    club_Founded = soup.find(class_='info-table--equal-space').find(
+                        itemprop="foundingDate").text
+                except:
+                    club_Founded = '-'
+
+                try:
+                    club_Website = soup.find(class_='info-table--equal-space').find(itemprop="url").find(
+                        'a').get('href')
+                except:
+                    club_Website = '-'
+
+                try:
+                    club_Stadium = '-'
+                    for item in soup.select('.data-header__details > ul > li'):
+                        if 'Stadium' in item.text:
+                            club_Stadium = item.find('span').find('a').text
+                except:
+                    club_Stadium = '-'
+
+                for award in soup.select('.data-header__badge-container > .data-header__success-data'):
+                    award_title = award.get('title')
+                    number = int(award.find('span').text.strip())
+
+                self.club_details.loc[len(self.club_details)] = [club_id, club_name, club_Founded, club_Website,
+                                                                 club_Stadium]
+                self.save_to_csv('club_details')
+                self.club_awards.loc[len(self.club_awards)] = [club_id, award_title, number]
+                self.save_to_csv('club_awards')
+                self.scraped_club_url.loc[len(self.scraped_club_url)] = [club_url]
+                self.save_to_csv('scraped_club_url')
+
+            except Exception as e:
+                print(f"scrap_club_page function with {club_url} input: " + str(e))
+                req_failed_count += 1
 
     def crawl_club_link(self):
         new_url = set()
@@ -816,32 +815,13 @@ class Transfer:
         new_url = new_url - scraped_url
         print(len(new_url))
         print("start crawling club links:")
-        with ThreadPoolExecutor(max_workers=100) as executor:
-            futures = (executor.submit(self.scrap_club_page, url) for url in new_url)
-            for future in as_completed(futures):
-                club_details, club_awards, club_url = future.result()
-                if club_url is not None:
-                    self.club_details.loc[len(self.club_details)] = [
-                        club_details['club_id'],
-                        club_details['name'],
-                        club_details['Founded'],
-                        club_details['Website'],
-                        club_details['Stadium']
-                    ]
-                    self.save_to_csv('club_details')
-
-                    for award in club_awards:
-                        self.club_awards.loc[len(self.club_awards)] = [
-                            award['club_id'],
-                            award['award_title'],
-                            award['number']
-                        ]
-                    self.save_to_csv('club_awards')
-
-                    self.scraped_club_url.loc[len(self.scraped_club_url)] = [club_url]
-                    self.save_to_csv('scraped_club_url')
-
-        print("finish crawling club links")
+        if len(new_url) == 0:
+            print('all club crawled !')
+        else:
+            print('loading club:')
+            with ThreadPoolExecutor(max_workers=500) as executor:
+                _ = (executor.submit(self.scrap_club_page, url) for url in
+                     tqdm(new_url, desc="Scraping feature of clubs Progress"))
 
 
 if __name__ == '__main__':
