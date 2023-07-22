@@ -13,8 +13,6 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
     , 'accept-language': 'en-US'
 }
-max_retries = 3
-retries = 0
 
 
 class Transfer:
@@ -319,39 +317,18 @@ class Transfer:
                     _ = [executor.submit(self.scrape_clubs_leagues_page, url) for url in
                          tqdm(urls, desc="Scraping clubs leagues Progress")]
 
-    def get_all_data(self):
 
-        for database in self.list_of_name_database:
-            self.load_csv(database)
 
-        if self.saison.empty:
-            self.create_saison()
+    def person_details_in_league(self, urls):
 
-        self.get_country_id_name_url()
-
-        self.get_feature_of_leagues()
-        self.get_clubs_leagues()
-
-        self.crawl_club_link()
-        self.crawl_club_at_season_link()
-
-        self.call_person()
-
-    def person1(self, urls):
-
-        df = pd.read_csv('./data/leagues.csv')
-        leagues = set(df['name'])
+        leagues = set(self.leagues['name'])
 
         text = urls.split("/")
         url = [text[1], text[4]]
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36",
-            "Accept-Language": "en-US,en;q=0.9",
-        }
 
-        href = 'https://www.transfermarkt.com/{}/leistungsdatendetails/spieler/{}/saison//verein/0/liga/0/wettbewerb//pos/0/trainer_id/0/plus/1'
+        href = self.base_URL + '/{}/leistungsdatendetails/spieler/{}/saison//verein/0/liga/0/wettbewerb//pos/0/trainer_id/0/plus/1'
 
-        response = requests.get(href.format(url[0], url[1]), headers=headers)
+        response = requests.get(href.format(url[0], url[1]), headers=HEADERS)
         soup = BeautifulSoup(response.content, features='html.parser')
         try:
             awards = soup.find('div', attrs={'class': 'data-header__badge-container'})
@@ -361,7 +338,7 @@ class Transfer:
                 self.player_awards.loc[len(self.player_awards)] = [url[1], award['title'], award.text.strip()]
                 self.save_to_csv('player_awards')
         except:
-            # raise
+
             pass
         table = soup.find_all('tbody')
         try:
@@ -372,7 +349,7 @@ class Transfer:
 
         row = table[1].find_all('tr')
         for i in row:
-            # if head == 0:
+
             season = '20' + i.find('td', attrs={'class': 'zentriert'}).text[:2]
             league = i.find('td', attrs={'class': 'hauptlink no-border-links'}).text
             if season in ['2020', '2021', '2019', '2018', '2017', '2016', '2015'] and league in leagues:
@@ -448,13 +425,9 @@ class Transfer:
         text = url.split("/")
         text = [text[1], text[4]]
 
-        href = 'https://www.transfermarkt.co.uk/{}/profil/spieler/{}'.format(text[0], text[1])
+        href = self.base_URL + '/{}/profil/spieler/{}'.format(text[0], text[1])
 
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36",
-            "Accept-Language": "en-US,en;q=0.9",
-        }
-        response = requests.get(href, headers={'User-Agent': 'Mozilla/5.0'})
+        response = requests.get(href, headers=HEADERS)
         # try:
         soup = BeautifulSoup(response.content, 'html.parser')
         if response.status_code == 200:
@@ -648,19 +621,16 @@ class Transfer:
     def call_person(self):
 
         geturls_set = set(self.geturls['URL'])
-        ddf = pd.read_csv('./date/person.csv')
-        urls = set(ddf['URL']) - geturls_set
+        urls = set(self.person['URL']) - geturls_set
 
         geturls_set2 = set(self.geturls2['URL'])
-        ddf2 = pd.read_csv('./date/person.csv')
-        urls2 = set(ddf2['URL']) - geturls_set2
+        urls2 = set(self.person['URL']) - geturls_set2
 
         with ThreadPoolExecutor(max_workers=500) as executor:
-            _ = [executor.submit(self.person1, url) for url in tqdm(urls, desc="Scraping person Progress")]
+            _ = [executor.submit(self.person_details_in_league, url) for url in
+                 tqdm(urls, desc="Scraping person Progress")]
             __ = [executor.submit(self.person_detail, url) for url in
                   tqdm(urls2, desc="Scraping person details Progress")]
-            co_ = as_completed(__)
-            co = as_completed(_)
 
     def scrap_club_page_at_season(self, club_url, season):
 
@@ -823,7 +793,25 @@ class Transfer:
                 _ = (executor.submit(self.scrap_club_page, url) for url in
                      tqdm(new_url, desc="Scraping feature of clubs Progress"))
 
+    def __call__(self):
+
+        for database in self.list_of_name_database:
+            self.load_csv(database)
+
+        if self.saison.empty:
+            self.create_saison()
+
+        self.get_country_id_name_url()
+
+        self.get_feature_of_leagues()
+        self.get_clubs_leagues()
+
+        self.crawl_club_link()
+        self.crawl_club_at_season_link()
+
+        self.call_person()
+
 
 if __name__ == '__main__':
     site = Transfer()
-    site.get_all_data()
+    site()
