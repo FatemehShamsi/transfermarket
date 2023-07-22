@@ -317,8 +317,6 @@ class Transfer:
                     _ = [executor.submit(self.scrape_clubs_leagues_page, url) for url in
                          tqdm(urls, desc="Scraping clubs leagues Progress")]
 
-
-
     def person_details_in_league(self, urls):
 
         leagues = set(self.leagues['name'])

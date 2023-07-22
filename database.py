@@ -259,7 +259,7 @@ class AddToTable:
 
         csvPerson.to_sql('player_awards', con=self.connection, if_exists='append', index=False)
 
-    def addAll(self):
+    def __call__(self):
         self.addCountries()
         self.addLeagues()
         self.addSeasons()
@@ -392,4 +392,4 @@ if __name__ == '__main__':
     clean = DataCleaning()
     creator = CreateTable('TransferMarket', 'fatemeh', '')
     add = AddToTable()
-    add.addAll()
+    add()
